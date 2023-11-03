@@ -38,6 +38,7 @@ export async function createInvoice(formData: FormData) {
      *  revalidatePath
      *    - 클라이언트 라우터 캐시
      *    - 사용자가 서버에 대한 요청 수를 줄이면서 경로 간을 빠르게 탐색 가능
+     *  - 빌드 test
      */
     revalidatePath('/dashboard/invoices');
     redirect('/dashboard/invoices');
